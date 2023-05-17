@@ -110,3 +110,33 @@ body {
     height: calc(var(--mark-size) * .7);
     background-color: white;
 }
+
+/* restart button */
+.div-winning-msg {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .9);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 5rem;
+}
+.show {
+    display: flex;
+}
+.div-winning-msg button {
+    font-size: 3rem;
+    background-color: white;
+    border: 1px solid .5em;
+    cursor: pointer;
+}
+.div-winning-msg button:hover {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
